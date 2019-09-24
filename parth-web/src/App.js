@@ -1,14 +1,14 @@
-import React, {Component} from 'react';
-import {render} from 'react-dom'
-
-class App extends Component {
-  render(){
-    return(
-      <div>
-        <p>Hello World!</p>
-      </div>
-    )
-  }
+import React from 'react';
+import logo from './logo.svg';
+import { Header} from './components/header'
+import { Navigation } from './components/navigation/navigation';
+function App() {
+  return (
+    <div>
+      <Header />
+      <Navigation />
+    </div>
+  );
 }
 
 export default App;
