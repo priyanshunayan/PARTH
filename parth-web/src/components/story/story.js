@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import styles from './story.module.css'
+import image from '../../assets/images/plane.svg'
 export class Story extends Component {
     render(){
         return(
@@ -10,6 +11,7 @@ export class Story extends Component {
                 <Container fluid={true}>
                 <Row noGutters={true}>
                 <Col className={styles.leftColumn}>
+                    <img src={image} className={styles.image}></img>
                 </Col>
                 <Col className={styles.rightColumn}>
                     <div className={styles.text}>

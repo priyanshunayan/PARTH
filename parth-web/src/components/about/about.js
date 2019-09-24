@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import styles from './about.module.css'
-
+import image from '../../assets/images/group-4.png'
 
 export class About extends Component {
     render(){
@@ -14,12 +14,14 @@ export class About extends Component {
                     <Row  noGutters={true}>
                         <Col  className={styles.leftColumn}>
                             <div className={styles.textContainer}>
-                            <h3 className={styles.space}>We are serving to more than 10 million people & next milestone is 1 billion</h3>
+                            <h3 className={styles.space}>We are already significantly connected to 10 million people.
+1 billion doesn’t seem far !!</h3>
                             <p className={styles.gray}> Want to be part of this mission?</p>
                             <button className={styles.join}>Join us</button>
                             </div>
                         </Col>
                         <Col className={styles.rightColumn}>
+                            <img src={image}  className={styles.image}/>
                         </Col>
                     </Row>
                     </Container>

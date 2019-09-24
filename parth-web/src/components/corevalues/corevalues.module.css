@@ -1,0 +1,38 @@
+.center {
+    text-align:center;
+}
+.marginTop {
+    margin-top: 1.5em;
+}
+.centerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    text-align: center;
+    border: 1px solid #dddddd;
+    background-color:#f5f5f5;
+    color: #505050;
+    height:100px;
+    padding:0 2em 0 2em;
+  
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.box1{
+    text-align: center;
+    border: 1px solid #dddddd;
+    background-color:white;
+    color: #505050;
+    height:100px;
+    display:flex;
+    padding:0 2em 0 2em;
+    justify-content: center;
+    align-items: flex-end;
+}
+.image {
+    width: 50%;
+    height: auto;
+}

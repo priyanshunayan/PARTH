@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { About } from './components/about/about';
 import { Story } from './components/story/story';
 import { Whatwedo } from './components/whatwedo/whatwedo';
+import { Corevalues } from './components/corevalues/corevalues';
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Story />
       <Whatwedo />
+      <Corevalues />
     </div>
   );
 }

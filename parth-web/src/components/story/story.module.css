@@ -1,7 +1,7 @@
 .story {}
 
 .leftColumn {
-  background-color: #fbfbfb;
+  background-color: black;
   display: flex;
   justify-content: flex-end;
 
@@ -114,4 +114,8 @@
 .empty {
   margin-top: 2em;
   width: 2em;
+}
+.image {
+  width: 60%;
+  height:auto;
 }
