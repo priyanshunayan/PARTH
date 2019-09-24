@@ -5,6 +5,7 @@ import { Navigation } from './components/navigation/navigation';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { About } from './components/about/about';
 import { Story } from './components/story/story';
+import { Whatwedo } from './components/whatwedo/whatwedo';
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <Navigation />
       <About />
       <Story />
+      <Whatwedo />
     </div>
   );
 }

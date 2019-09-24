@@ -1,0 +1,29 @@
+.marginTop {
+  margin-top: 3em;
+}
+
+.center {
+  text-align: left;
+  font-weight: bold;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.centerBlock {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.marginTopLess {
+  margin-top: 2em;
+}
+
+.whatwedo {
+    color:#505050;
+}
