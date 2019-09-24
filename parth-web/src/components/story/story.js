@@ -27,19 +27,19 @@ export class Story extends Component {
                         </div>
                             <div className={styles.blackBox2}>
                                 <div>
-                                    <span className={styles.stat}>50+</span><br/>Countries
+                                    <span className={styles.stat}>10m</span><br/>Downloads
                                 </div>
                             </div>
                     </div>
                     <div className={styles.boxes2}>
                         <div className={styles.blackBox3}>
                             <div >
-                                <span className={styles.stat}>50+</span><br/>Countries
+                                <span className={styles.stat}>2.5m</span><br/>Active Users
                             </div>
                         </div>
                             <div className={styles.blackBox4}>
                                 <div>
-                                    <span className={styles.stat}>50+</span><br/>Countries
+                                Many more milestones coming soon
                                 </div>
                             </div>
                     </div>  

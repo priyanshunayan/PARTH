@@ -96,7 +96,7 @@
   height: 140px;
   transform: rotate(360deg);
   background-color: #f1f1f1;
-  color: white;
+  color: gray;
   display: flex;
   align-items: center;
   justify-content: center;
