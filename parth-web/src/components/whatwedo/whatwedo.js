@@ -8,7 +8,6 @@ export class Whatwedo extends Component {
         return(
             <div className={styles.whatwedo}>
                 <Container className={styles.centerBlock}>
-
                     <Row>
                         <Col className={styles.marginTop} >
                         <h3 className={styles.center}>What we do?</h3>

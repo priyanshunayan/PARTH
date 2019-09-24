@@ -7,6 +7,7 @@ import { About } from './components/about/about';
 import { Story } from './components/story/story';
 import { Whatwedo } from './components/whatwedo/whatwedo';
 import { Corevalues } from './components/corevalues/corevalues';
+import {Products} from './components/products/products'
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Story />
       <Whatwedo />
+      <Products />
       <Corevalues />
     </div>
   );
