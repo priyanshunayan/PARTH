@@ -8,7 +8,7 @@ const style = {
     child:{
         color: 'white',
         letterSpacing: '128px',
-        padding:'1em',
+        padding:'0.5em',
         margin:'0',
         textAlign:'center',
         fontFamily:['Calibri','Arial'],
@@ -23,7 +23,7 @@ export class Header extends React.Component{
     render(){
         return(
             <div style={style.parent}>
-                <h3 style={style.child}>PARTH</h3>
+                <h5 style={style.child}>PARTH</h5>
             </div>
         )
     }

@@ -13,9 +13,9 @@
  export class Navigation extends Component {
      render(){
          return(
-             <div>
+             <div className="margin-bottom">
                  <ul style={styles.ul}>
-                     <li className="list-item"><img></img></li>
+                     <li className="list-item"><img src="../logo.svg"></img></li>
                      <li className="list-item">Home</li>
                      <li className="list-item">Career</li>
                      <li className="list-item">Products</li>
