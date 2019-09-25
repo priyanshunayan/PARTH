@@ -15,7 +15,7 @@ export class Whatwedo extends Component {
                     </Row>
                     <Row className={styles.marginTopLess}>
                         <Col className={styles.centerText}>
-                        We get excited
+                        We analyse 🤔
                         </Col>
                     </Row>
                     <Row className={styles.marginTopLess}>
