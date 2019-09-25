@@ -11,43 +11,18 @@
   width: 100px;
   height: 100px;
   border: 1px solid black;
-  transform: rotate(45deg);
   background: #fafafa;
 }
 
 .product1name {
-  transform: rotate(-45deg)
+  transform: rotate(-45deg);
 }
 
-.product2 {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  transform: rotate(45deg);
-  background: #fafafa;
-  margin-left: -206px;
-  margin-top: -34px;
-  margin-right: -73px;
+.rotate {
+  transform: rotate(45deg); 
 }
 
-.product2name {
-  transform: rotate(-45deg)
-}
 
-.product3 {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  transform: rotate(45deg);
-  background: #fafafa;
-  margin-left: -206px;
-  margin-top: -34px;
-  margin-right: -73px;
-}
-
-.product3name {
-  transform: rotate(-45deg)
-}
 
 .center {
   display: flex;

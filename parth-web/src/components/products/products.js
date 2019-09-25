@@ -24,8 +24,16 @@ export class Products extends Component {
                     </Row>
                     <Row>
                         <Col className={styles.center} >
-                        <div>
-                        <img src={image} className={styles.image}></img>
+                        <div className={styles.rotate}>
+                        <div className={styles.center}>
+                                <div className={styles.product1}>
+                                </div>
+                                <div className={styles.product1}>
+                                </div>
+                            </div>
+                            <div className={styles.product1}>
+                            </div>
+                            
                         </div>
                         </Col>
                     </Row>
