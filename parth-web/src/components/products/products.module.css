@@ -3,6 +3,10 @@
   margin-bottom: 0;
 }
 
+.hide {
+  display: none;
+}
+
 .productHeaderSmall {
   color: #505050;
 }
@@ -10,19 +14,110 @@
 .product1 {
   width: 100px;
   height: 100px;
-  border: 1px solid black;
   background: #fafafa;
 }
 
-.product1name {
+.product2 {
+  width: 100px;
+  height: 100px;
+  background: #f5f5f5;
+  margin-left: calc(150px);
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+
+  }
+
+  to {
+    opacity: 1;
+  
+  }
+}
+
+.productInfo {
+  padding: 1em;
+  width: 250px;
+  margin-left: calc(0%);
+  animation: fadein 2s;
+}
+
+.aligninline {
+  display: flex;
+
+}
+
+.hide {
+  margin-right: calc(150px);
+  display: none;
+}
+
+.product3 {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #dfdfdf;
+  background-color: #ffffff;
+}
+
+.rotateBack {
   transform: rotate(-45deg);
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .rotate {
-  transform: rotate(45deg); 
+  transform: rotate(45deg);
+  transition-duration: 1s;
+}
+
+.rotate:hover {
+  transform: rotate(0deg);
+  transition-duration: 1s;
 }
 
 
+
+.logoce,
+.logooc,
+.logoac {
+  width: 30%;
+}
+
+.logoce {
+  margin-left: 19px;
+}
+
+.logooc {
+  margin-top: 14px;
+  margin-left: 14px;
+}
+
+.logoac {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.textce {
+  font-size: 13px;
+  padding-left: 14px;
+  margin-top: 5px;
+  color: #505050
+}
+
+.textoc {
+  font-size: 13px;
+  margin-left: -7px;
+  margin-right: 14px;
+  color: #505050;
+  margin-top: 5px;
+}
+
+.textac {
+  font-size: 13px;
+  margin-left: -5px;
+  color: #505050;
+}
 
 .center {
   display: flex;
@@ -34,5 +129,5 @@
   text-align: center;
   margin: -100px 0 -200px 0;
   width: 50%;
-  height:auto;
+  height: auto;
 }
