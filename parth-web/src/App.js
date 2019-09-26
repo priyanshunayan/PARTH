@@ -11,6 +11,7 @@ import {Products} from './components/products/products'
 import { Team } from './components/team/team';
 import { Proposal } from './components/proposal/proposal';
 import { Chat } from './components/chatwithus/chatwithus';
+import { Footer } from './components/footer/footer';
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
       <Team />
       <Proposal />
       <Chat />
+      <Footer />
     </div>
   );
 }

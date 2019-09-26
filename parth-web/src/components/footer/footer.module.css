@@ -1,0 +1,28 @@
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  margin-left: 4em;
+  justify-content: space-between;
+}
+
+.noStyle {
+  list-style-type: none;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 1em;
+  margin-top: 2em;
+
+
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padding {
+    padding:1em;
+}
