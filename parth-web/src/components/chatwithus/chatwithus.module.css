@@ -1,0 +1,39 @@
+.proposalBlock {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding-top: 1em;
+}
+
+.proposal {
+  margin-top: 2em;
+  background-color: #f9f9f9;
+}
+
+.marginLeft {
+  margin-left: 5em;
+}
+
+.para {
+  width: 70%;
+  color: #505050
+}
+
+.clearfix {
+  clear: both;
+}
+
+.button {
+  margin-top: 1em;
+  transition: background-color 0.5s ease;
+  background-color: black;
+  color: white;
+  padding: 0.2em 3em;
+  border: 1px solid black;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}

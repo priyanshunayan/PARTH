@@ -10,6 +10,7 @@ import { Corevalues } from './components/corevalues/corevalues';
 import {Products} from './components/products/products'
 import { Team } from './components/team/team';
 import { Proposal } from './components/proposal/proposal';
+import { Chat } from './components/chatwithus/chatwithus';
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
       <Corevalues />
       <Team />
       <Proposal />
+      <Chat />
     </div>
   );
 }
