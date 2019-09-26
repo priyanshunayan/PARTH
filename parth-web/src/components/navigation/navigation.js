@@ -1,6 +1,7 @@
  import React, {Component} from 'react';
- import './navigation.css'
+ import AnchorLink from 'react-anchor-link-smooth-scroll'
  import image from '../../assets/images/parth-logo-small.png'
+ import style from "./navigation.module.css"
  const styles = {
     ul:{
         listStyleType:"none",
@@ -14,13 +15,15 @@
  export class Navigation extends Component {
      render(){
          return(
-             <div className="margin-bottom">
+             <div className={style.marginBottom}>
                  <ul style={styles.ul}>
-                     <li className="list-item"><img src={image} width={50} height={50}></img></li>
-                     <li className="list-item">Home</li>
-                     <li className="list-item">Career</li>
-                     <li className="list-item">Products</li>
-                     <li className="list-item">How to connect?</li>
+                     <AnchorLink  className={style.listItem}><img src={image} width={50} height={50} className={style.image}></img></AnchorLink>
+                     <AnchorLink href="#home" className={style.listItem}>Home</AnchorLink>
+                     <AnchorLink href="#story"className={style.listItem}>Our Story</AnchorLink>
+                     <AnchorLink href="#what"className={style.listItem}>What we do?</AnchorLink>
+                     <AnchorLink href="#products"className={style.listItem}>Our Products</AnchorLink>
+                     <AnchorLink href="#team"className={style.listItem}>Team</AnchorLink>
+                     <AnchorLink href="#chat"className={style.listItem}>How to Connect</AnchorLink>
                  </ul>
              </div>
          )

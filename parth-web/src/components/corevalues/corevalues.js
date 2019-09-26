@@ -8,7 +8,7 @@ export class Corevalues extends Component {
     render(){
         return(
             <div>
-                <Container>
+                <Container fluid={true}>
                     <Row>
                         <Col className={[styles.center, styles.marginTop]}>
                             <h3>Core <br/>

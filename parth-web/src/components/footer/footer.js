@@ -7,8 +7,8 @@ import { FaTwitter,FaFacebookSquare,FaInstagram,FaYoutube } from "react-icons/fa
 export class Footer extends Component {
     render(){
         return(
-            <div>
-                <Container className={styles.footer}>
+            <div id="footer">
+                <Container fluid={true} className={styles.footer}>
                     <Row >
                         <Col>
                             <div className={styles.flex}>

@@ -52,8 +52,8 @@ export class Products extends Component {
     //onMouseOver={this.showCE} onMouseOut={this.hideCE}
     render(){
         return(
-            <div>
-                <Container style={styling}>
+            <div id="products">
+                <Container fluid={true} style={styling}>
                     <Row>
                         <Col className={styles.productHeader}>
                             <h4> Our <br />Products </h4>

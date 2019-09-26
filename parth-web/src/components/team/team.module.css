@@ -13,6 +13,13 @@
     padding:0.7em;
     text-align: right;
     height:116px;
+      
+    margin:0;  
+}
+.personTextp{
+    width:60%;
+    margin-right:0!important;
+    float:right;
 }
 .imageDetails {
     width: 50%;
@@ -32,6 +39,7 @@
     background-color: black;
 }
 .imageText {
-    text-align: right;
+    text-align:left;
+    padding-top:1em;
     
 }

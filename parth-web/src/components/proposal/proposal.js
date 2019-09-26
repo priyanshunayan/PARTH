@@ -8,7 +8,7 @@ export class Proposal extends Component {
     render(){
         return(
             <div className={styles.proposal}>
-                <Container>
+                <Container fluid={true}>
                     <Row>
                         <Col >
                             <div className={styles.proposalBlock} >

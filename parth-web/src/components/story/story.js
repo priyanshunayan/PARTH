@@ -7,7 +7,7 @@ import image from '../../assets/images/plane.svg'
 export class Story extends Component {
     render(){
         return(
-            <div className={styles.story}>
+            <div id="story"className={styles.story}>
                 <Container fluid={true}>
                 <Row noGutters={true}>
                 <Col className={styles.leftColumn}>

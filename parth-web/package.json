@@ -5,10 +5,14 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.9.0",
+    "react-emoji-render": "^1.0.0",
     "react-icons": "^3.7.0",
+    "react-lazyload": "^2.6.2",
     "react-scripts": "3.1.2",
+    "react-scroll": "^1.7.14",
     "react-slick": "^0.25.2",
     "slick-carousel": "^1.8.1"
   },

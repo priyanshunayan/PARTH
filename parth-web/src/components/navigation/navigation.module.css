@@ -1,14 +1,18 @@
-.list-item {
+.listItem {
   padding-right: 1em;
   color: #797979;
   text-transform: uppercase;
   font-size: 16px
 }
 
-.margin-bottom {
+.marginBottom {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1.3em 0 0 0;
   margin-bottom: 0;
+}
+
+.image {
+  margin-left: -4em;
 }

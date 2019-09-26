@@ -3,11 +3,12 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import styles from './chatwithus.module.css'
+
 export class Chat extends Component {
     render(){
         return(
-            <div>
-                <Container>
+            <div id="chat">
+                <Container fluid={true}>
                     <Row className={styles.proposal}>
                         <Col>
                             <div className={styles.proposalBlock} >
