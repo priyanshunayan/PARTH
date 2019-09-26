@@ -1,0 +1,33 @@
+.proposal {
+  margin-top: 3em;
+}
+
+.proposalBlock {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+}
+
+.para {
+  float: right;
+  width: 60%;
+  color: #505050
+}
+
+.clearfix {
+  clear: both;
+}
+
+.button {
+  margin-top: 1em;
+  transition: background-color 0.5s ease;
+  background-color: white;
+  padding: 0.2em 2em;
+  border: 1px solid black;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}

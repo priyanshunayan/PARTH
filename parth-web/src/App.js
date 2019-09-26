@@ -9,6 +9,7 @@ import { Whatwedo } from './components/whatwedo/whatwedo';
 import { Corevalues } from './components/corevalues/corevalues';
 import {Products} from './components/products/products'
 import { Team } from './components/team/team';
+import { Proposal } from './components/proposal/proposal';
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
       <Products />
       <Corevalues />
       <Team />
+      <Proposal />
     </div>
   );
 }
