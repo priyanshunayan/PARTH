@@ -1,57 +1,105 @@
 .marginTop {
   margin-top: 2em;
 }
-.person{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+
+.person {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
+
 .personText {
-    width: 50%;
-    background-color:#f9f9f9;
-    color:#858585;
-    padding:0.7em;
-    text-align: right;
-    height:116px;
-      
-    margin:0;  
+  width: 50%;
+  background-color: #f9f9f9;
+  color: #858585;
+  padding: 0.7em;
+  text-align: right;
+  height: 116px;
+  margin: 0;
 }
-.personTextp{
-    width:60%;
-    margin-right:0!important;
-    float:right;
+
+.personTextp {
+  width: 60%;
+  margin-right: 0 !important;
+  float: right;
 }
+
 .imageDetails {
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-    background-color: black;
-    color:white;
-    height: 116px;
-    padding:0.7em;
-}
-.image, .imageText {
-    width: 50%;
-    
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+  height: 116px;
+  padding: 0.7em;
 
 }
-.image {
-    background-color: black;
-}
+
+.image,
 .imageText {
-    text-align:left;
-    padding-top:1em;
-    
-}
-.heading {
-    margin-left:5em;
-    margin-bottom:1em;
-}
-.slider {
-    width: 60%;
-    margin:auto;
-}
-.center {
-    
+  width: 50%;
 
+
+}
+
+.image {
+  background-color: black;
+}
+
+.imageText {
+  text-align: left;
+  padding-top: 1em;
+
+}
+
+.heading {
+  margin-left: 5em;
+  margin-bottom: 1em;
+}
+
+.slider {
+  width: 60%;
+  margin: auto;
+}
+
+.center {}
+
+@media only screen and (max-width:500px) {
+  .heading {
+    margin-left: 0;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .personText {
+    order: 3;
+  }
+
+  .imageDetails {
+    order: 2;
+  }
+
+  .slider {
+    width: 90%;
+  }
+
+  .personText,
+  .imageDetails {
+    width: 90%;
+  }
+  .personText{
+    border-left: 4px solid gray;
+  }
+  .personTextp {
+      
+      width:80%;
+      float: left;
+    text-align: left;
+  }
 }

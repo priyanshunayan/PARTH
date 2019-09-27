@@ -41,14 +41,13 @@ export class Team extends Component {
       prevArrow: <SamplePrevArrow />
           };
         return(
-            <div id="team" className={styles.marginTop}>
+        <div id="team" className={styles.marginTop}>
             <Container>
                 <Row>
                     <Col >
                     <h3 class={styles.heading}>Our Team</h3>
                     <Slider {...settings} className={styles.slider}>
-        <div>
-          
+            <div>
                 <div className={styles.person}>
                     <div className={styles.personText}>
                         <p className={styles.personTextp}>"I learn here here passion & how to dream, We build significant stuffs & see the difference we make"</p>
@@ -64,7 +63,7 @@ export class Team extends Component {
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
         <div>
         <div className={styles.person}>
                     <div className={styles.personText}>
