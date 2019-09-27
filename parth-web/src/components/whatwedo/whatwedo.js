@@ -16,28 +16,28 @@ export class Whatwedo extends Component {
                         </Col>
                     </Row>
                     <Row className={styles.marginTopLess}>
-                        <Col className={styles.centerText}>
+                        <Col className={styles.centerText} sm={12} lg={12}>
                         <Twemoji text="We analyse 🤔" />
                         </Col>
                     </Row>
                     <Row className={styles.marginTopLess}>
-                        <Col className={styles.centerText}>
+                        <Col className={styles.centerText}sm={12} lg={6}>
                         <Twemoji text="We ideate solutions 💭" />
                         </Col>
-                        <Col className={styles.centerText}>
+                        <Col className={styles.centerText} sm={12} lg={6}>
                         <Twemoji text="We build 💻" />
                         </Col>
                     </Row>
                     <Row className={styles.marginTopLess}>
-                        <Col className={styles.centerText}>
+                        <Col className={styles.centerText} sm={12} lg={6}>
                         <Twemoji text=" We see opportunities 🤷" />
                         </Col>
-                        <Col className={styles.centerText}>
+                        <Col className={styles.centerText} sm={12} lg={6}>
                         <Twemoji text="We repeat 🔂" />
                         </Col>
                     </Row>
                     <Row className={styles.marginTopLess}>
-                        <Col className={styles.centerText}>
+                        <Col className={styles.centerText} sm={12} lg={12}>
                         <Twemoji text="We create opportunities 🚪" />
                         </Col>
                     </Row>

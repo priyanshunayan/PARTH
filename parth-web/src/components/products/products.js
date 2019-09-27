@@ -11,7 +11,8 @@ import aclogo from '../../assets/images/l-ace-app.png'
 const styling = {
     backgroundImage: `url(${Background})`,
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    marginTop:'1em'
 }
 
 export class Products extends Component {
