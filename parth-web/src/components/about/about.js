@@ -7,20 +7,21 @@ import image from '../../assets/images/group-4.png'
 import background from "../../assets/images/group-70-copy.svg"
 export class About extends Component {
     render(){
-        console.log("STYLES", styles);
         return (
             <div id="home" className={styles.about}>
                 <Container fluid={true}>
                     <Row  noGutters={true}>
-                        <Col  className={styles.leftColumn}>
+                        <Col  className={styles.leftColumn} sm={12} lg={6}>
                             <div className={styles.textContainer}>
                             <h3 className={styles.space}>We are already significantly connected to 10 million people.
 1 billion doesn’t seem far !!</h3>
+<img src={image}  className={styles.imageMob}/>
+<div className={styles.clearfix}></div>
                             <p className={styles.gray}> Want to be part of this mission?</p>
                             <button className={styles.join}>Join us</button>
                             </div>
                         </Col>
-                        <Col className={styles.rightColumn}>
+                        <Col className={styles.rightColumn} sm={12} lg={6}>
                             <img src={image}  className={styles.image}/>
                         </Col>
                     </Row>

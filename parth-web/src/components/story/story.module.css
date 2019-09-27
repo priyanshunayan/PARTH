@@ -115,7 +115,53 @@
   margin-top: 2em;
   width: 2em;
 }
+
 .image {
   width: 60%;
-  height:auto;
+  height: auto;
+}
+
+.imageMob {
+  display: none;
+}
+
+@media only screen and (max-width:500px) {
+
+  .leftColumn,
+  .rightColumn {
+    height: auto;
+    margin-top: 0em;
+  }
+
+  .leftColumn {
+    display: none;
+  }
+
+  .imageMob {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background: black;
+  }
+
+  .heading {
+    display: inline-block;
+    text-align: right;
+    padding-left: 1em;
+  }
+
+  .text {
+    margin-top: 2em;
+    width: 90%;
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0em;
+  }
+  .description{
+    font-size:1em;
+  }
 }

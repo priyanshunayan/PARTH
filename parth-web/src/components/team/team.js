@@ -44,8 +44,9 @@ export class Team extends Component {
             <div id="team" className={styles.marginTop}>
             <Container>
                 <Row>
-                    <Col>
-                    <Slider {...settings}>
+                    <Col >
+                    <h3 class={styles.heading}>Our Team</h3>
+                    <Slider {...settings} className={styles.slider}>
         <div>
           
                 <div className={styles.person}>

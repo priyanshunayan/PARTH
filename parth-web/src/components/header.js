@@ -7,11 +7,11 @@ const style = {
     },
     child:{
         color: 'white',
-        letterSpacing: '128px',
-        padding:'0.5em',
+        letterSpacing: '5px',
+        padding:'0.1em 0.5em',
         margin:'0',
         textAlign:'center',
-        fontFamily:['Calibri','Arial'],
+        fontFamily:['sans-serif','Arial'],
         fontWeight:'normal'
     }
 }
