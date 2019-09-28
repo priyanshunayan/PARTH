@@ -39,3 +39,42 @@
   background-color: white;
   color: black;
 }
+
+@media only screen and (max-width:500px) {
+  .proposal {
+    margin-top: 4em;
+    background-color: #f9f9f9;
+    padding-left: 0em;
+    margin: auto;
+  }
+
+  .proposalBlock {
+    margin: auto;
+    width: 90%;
+  }
+
+  .button {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .para {
+    width: 100%;
+    text-align: center;
+  }
+
+  .marginLeft {
+    margin-left: 0;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}

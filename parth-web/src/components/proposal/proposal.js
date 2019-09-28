@@ -12,11 +12,13 @@ export class Proposal extends Component {
                     <Row>
                         <Col >
                             <div className={styles.proposalBlock} >
-                            <div>
+                            <div className={styles.center}>
+                                <div>
                            <h4 className={styles.heading}>Want to collabrate us?</h4>
                            <p className={styles.para}>We love making friends, if you have anything which is mutually benifitial for both of us we’d love to hear you</p>
                            <div class="clearfix"></div>
                            <button class={styles.button}>Mail your proposal </button>
+                           </div>
                            </div>
                            </div>
                         </Col>    

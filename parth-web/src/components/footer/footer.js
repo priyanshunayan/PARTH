@@ -10,7 +10,7 @@ export class Footer extends Component {
             <div id="footer">
                 <Container fluid={true} className={styles.footer}>
                     <Row >
-                        <Col>
+                        <Col sm={12} lg={6}>
                             <div className={styles.flex}>
                             <div>
                                 <ul className={styles.noStyle}>
@@ -31,7 +31,7 @@ export class Footer extends Component {
                             </div>
                             </div>
                         </Col>
-                        <Col className={styles.center}>
+                        <Col className={styles.center} sm={12} lg={6}>
                         <div >
                         <div >
                         <FaTwitter style={{ margin: '0 5px' }}/> 
@@ -44,7 +44,7 @@ export class Footer extends Component {
                     </Row>
                     <Row>
                         <Col>
-                        <div style={{color:"#ffffff", marginLeft:'5em', color:'#fff', fontSize:'14px'}}>
+                        <div style={{color:"#ffffff", marginLeft:'2em', marginTop:'1em', color:'#fff', fontSize:'14px'}}>
                         All right reserved & Copyright © Parth Universal Pvt. Ltd.
                         </div>
                         </Col>    

@@ -31,20 +31,31 @@
   background-color: black;
   color: white;
 }
-@media only screen and (max-width:500px){
-  .proposal{
+
+@media only screen and (max-width:500px) {
+  .proposal {
     text-align: center;
   }
-  .proposalBlock{
-    width: 90%;
-    text-align:center;
+
+  .proposalBlock {
+    width: 100%;
+    text-align: center;
   }
+
   .heading {
     text-align: center;
   }
+
   .para {
     float: none;
     margin: 0 auto;
-    width:90%;
+    width: 90%;
+  }
+
+  .center {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -16,7 +16,9 @@ export class Chat extends Component {
                            <h4 className={styles.heading}>Be a part of our story</h4>
                            <p className={styles.para}>We always look  foreward for great forlks to join us on our mission, if you want to be part of our story we’d love to chat</p>
                            <div class="clearfix"></div>
+                           <div class={styles.center}>
                            <button class={styles.button}>Chat with us</button>
+                           </div>
                            </div>
                             </div>
                         </Col>
