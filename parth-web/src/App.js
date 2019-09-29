@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Header} from './components/header'
+import { Header} from './components/header/header'
 import { Navigation } from './components/navigation/navigation';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { About } from './components/about/about';

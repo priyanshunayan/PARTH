@@ -1,0 +1,28 @@
+.parent {
+  background-color: #000000;
+  padding: 0 1em 0 1em;
+  width: 100%;
+}
+
+.child {
+  color: white;
+  letter-spacing: 100px;
+  padding: 0.1em 0.5em;
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+@media only screen and (max-width:500px) {
+  .parent {
+    margin: auto;
+  }
+
+  .child {
+    width: 100%;
+    margin: auto;
+    margin-left: 24px;
+    letter-spacing: 50px;
+  }
+
+}
