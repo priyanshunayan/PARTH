@@ -140,4 +140,12 @@
     margin-left: 3em;
     text-align: center;
   }
+
+  .productInfo {
+    padding: 0.5em;
+  }
+
+  .rotate {
+    pointer-events: none;
+  }
 }

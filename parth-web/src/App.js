@@ -12,14 +12,18 @@ import { Team } from './components/team/team';
 import { Proposal } from './components/proposal/proposal';
 import { Chat } from './components/chatwithus/chatwithus';
 import { Footer } from './components/footer/footer';
+import ScrollToTop from 'react-scroll-up';
 function App() {
   return (
     <div>
+      <ScrollToTop showUnder={160} style={{color:'red'}}>
+      <span>UP</span>
+      </ScrollToTop>
       <Header />
       <Navigation />
       <About />
       <Story />
-      <Whatwedo />
+      <Whatwedo/>
       <Products />
       <Corevalues />
       <Team />

@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/fonts/MyFont.ttf');
+}
+
+#header {
+  font-family: 'Myfont', Arial;
+}
+
+#heading {
+  letter-spacing: '100px',
+}
+
+@media only screen and (max-width:500px) {
+  #heading {
+    letter-spacing: '70px';
+  }
+}
+
 body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
@@ -98,17 +118,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .navbar {
-  width:100%;
+  width: 100%;
 }
+
 .navbar-light .navbar-toggler {
   border-color: white;
 }
-button:focus{
-  outline:0;
+
+button:focus {
+  outline: 0;
 }
 
-@media only screen and (max-width:500px){
-  html{
-    overflow-x:hidden;
+@media only screen and (max-width:500px) {
+  html {
+    overflow-x: hidden;
   }
 }

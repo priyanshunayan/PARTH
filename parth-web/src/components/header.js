@@ -7,23 +7,20 @@ const style = {
     },
     child:{
         color: 'white',
-        letterSpacing: '5px',
+        letterSpacing: '80px',
         padding:'0.1em 0.5em',
         margin:'0',
         textAlign:'center',
-        fontFamily:['sans-serif','Arial'],
         fontWeight:'normal'
     }
 }
 
 
-
-
 export class Header extends React.Component{
     render(){
         return(
-            <div style={style.parent}>
-                <h5 style={style.child}>PARTH</h5>
+            <div style={style.parent} id="header">
+                <h5 style={style.child} >PARTH</h5>
             </div>
         )
     }

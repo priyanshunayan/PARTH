@@ -16,6 +16,9 @@ const styling = {
 }
 
 export class Products extends Component {
+    componentWillMount() {
+        console.log("Story Mounted");
+    }
     constructor(props) {
         super(props);
         this.state ={

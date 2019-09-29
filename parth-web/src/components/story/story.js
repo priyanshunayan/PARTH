@@ -4,10 +4,23 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import styles from './story.module.css'
 import image from '../../assets/images/plane.svg'
+import CountUp from 'react-countup';
+import TrackVisibility from 'react-on-screen';
+import VisibilitySensor  from 'react-visibility-sensor';
+
+function onChange (isVisible) {
+    console.log('Element is now %s', isVisible ? 'visible' : 'hidden');
+  }
+
 export class Story extends Component {
+    componentWillMount() {
+        console.log("Story Mounted");
+    }
     render(){
+        console.log(this.props);
         return(
             <div id="story"className={styles.story}>
+                
                 <Container fluid={true}>
                 <Row noGutters={true}>
                 <Col className={styles.leftColumn} sm={12} lg={6}>
@@ -25,19 +38,19 @@ export class Story extends Component {
                     <div className={styles.boxes}>
                         <div className={styles.blackBox1}>
                             <div>
-                                <span className={styles.stat}>50+</span><br/>Countries
+                                <span className={styles.stat}><CountUp end={50} />+</span><br/>Countries
                             </div>
                         </div>
                             <div className={styles.blackBox2}>
                                 <div>
-                                    <span className={styles.stat}>10m</span><br/>Downloads
+                                    <span className={styles.stat}><CountUp end={10} />m</span><br/>Downloads
                                 </div>
                             </div>
                     </div>
                     <div className={styles.boxes2}>
                         <div className={styles.blackBox3}>
                             <div >
-                                <span className={styles.stat}>2.5m</span><br/>Active Users
+                                <span className={styles.stat}><CountUp end={2.5} decimals={1}/>m</span><br/>Active Users
                             </div>
                         </div>
                             <div className={styles.blackBox4}>
