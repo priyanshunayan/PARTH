@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 .leftColumn {
   background-color: black;
   display: flex;
@@ -15,12 +16,12 @@
 
 .leftColumn,
 .rightColumn {
-  height: 650px;
+  height: 700px;
   margin-top: -5em;
 }
 
 .text {
-  margin-top: 7em;
+  margin-top: 6em;
   width: 50%;
 }
 
@@ -30,11 +31,12 @@
 
 .description {
   text-align: justify;
-  font-size: 13px;
+  font-size: 11px;
   color: #646464;
-  line-height: 1.6;
+  line-height: 1.75;
   padding: 0.5em;
   padding-left: 1.5em;
+  font-family: 'Merriweather', serif;
 
 }
 

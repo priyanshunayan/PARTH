@@ -18,7 +18,7 @@ export class About extends Component {
 <img src={image}  className={styles.imageMob}/>
 <div className={styles.clearfix}></div>
                             <p className={styles.gray}> Want to be part of this mission?</p>
-                            <button className={styles.join}>Join us</button>
+                            <button className={styles.join}><a href="mailto:connect@parth.ind.in" className={styles.link}>Join us</a></button>
                             </div>
                         </Col>
                         <Col className={styles.rightColumn} sm={12} lg={6}>

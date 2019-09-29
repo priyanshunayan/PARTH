@@ -37,17 +37,10 @@
 .join {
   background-color: black;
   transition: background-color 0.350s ease;
-  color: white;
   width: 80%;
   padding: 0.2em 5em;
   border: none;
-
-}
-
-.join:hover {
-  background-color: white;
-  color: black;
-
+  color:black;
 }
 
 .gray {
@@ -96,6 +89,7 @@
   margin-right: 1em;
   align-items: center;
   text-align: center;
+
 }
 
 .imageMob {
@@ -104,6 +98,14 @@
 
 .clearfix {
   clear: both;
+}
+.link{
+  text-decoration:none;
+  color:white;
+}
+.link:hover{
+  color:white;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 767px) {

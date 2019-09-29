@@ -13,7 +13,7 @@ export class Whatwedo extends Component {
             <div id = "what" className={styles.whatwedo}>
                 <Container fluid={true} className={styles.centerBlock}>
                     <Row class={styles.center}>
-                        <h4>What we Do?</h4>
+                        <h4>What do we do?</h4>
                         <div >
                         <img src={whatwedo}  className={styles.image}/>
                         <img src={whatwedoMob} className={styles.imageMob}/>

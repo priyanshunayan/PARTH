@@ -36,10 +36,8 @@
 }
 
 .image {
-  text-align: center;
-  width: auto;
-  height: 70%;
-  margin-left: -10em;
+  width: 100%;
+  height: auto;
   margin-top: 3em;
 }
 
@@ -71,9 +69,9 @@
   }
 
   .imageMob {
-    width: 90%;
+    width: 100%;
     height: auto;
     display: block;
-    margin-left: 1em;
+    margin:1em;
   }
 }

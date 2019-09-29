@@ -40,7 +40,7 @@ export class Products extends Component {
         this.setState({
             display:true,
             hover:true,
-            info: "It, your one place stop for all you want to know about the cricketing world & pin background score"
+            info: "One place for all cricket lovers. Pinning background scores makes it unique."
         })
     }
     showAC = () => {
@@ -77,7 +77,7 @@ export class Products extends Component {
                                     <div className={styles.rotateBack}>
                                         <div>
                                             <img src={celogo} className={styles.logoce}></img>
-                                        <br /><div className={styles.textce}>Cricket  Exchange</div>
+                                        <br /><div className={styles.textce}><a href="https://play.google.com/store/apps/details?id=in.cricketexchange.app.cricketexchange&hl=en" className={styles.link}>Cricket Exchange</a></div>
                                         </div>
                                         </div>
                                 </div>
@@ -85,7 +85,7 @@ export class Products extends Component {
                                 <div className={styles.rotateBack}>
                                     <div>
                                         <img src={aclogo} className={styles.logoac}/>
-                                        <br /><span className={styles.textac}>ACEapp</span>
+                                        <br /><span className={styles.textac}><a href="https://play.google.com/store/apps/details?id=xyz.purush.ace&hl=enn" className={styles.link}>ACEapp</a></span>
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@ export class Products extends Component {
                                     <div className={styles.rotateBack}>
                                         <div>
                                             <img src={oclogo} className={styles.logooc}/>
-                                            <br /><span className={styles.textoc}>OneCricket</span>
+                                            <br /><span className={styles.textoc}><a href="https://play.google.com/store/apps/developer?id=cricket.one&hl=en" className={styles.link}>OneCricket</a></span>
                                             </div>
                                         </div> 
                                 </div>

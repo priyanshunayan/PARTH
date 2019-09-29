@@ -25,7 +25,7 @@ export class Footer extends Component {
                                     <li style={{opacity:'0.9'}}>PARTH | Gurugram Office, </li>
                                     <li style={{opacity:'0.9'}}>3rd floor, Innov8, Orchid Tower</li>
                                     <li style={{opacity:'0.9'}}>Golf Course Road, Sector-54</li>
-                                    <li style={{opacity:'0.9'}}>Gurgaaon - 122002</li>
+                                    <li style={{opacity:'0.9'}}>Gurugram - 122002</li>
                                     <li style={{opacity:'0.9'}}>Haryana, India</li>
                                 </ul>
                             </div>
@@ -33,12 +33,12 @@ export class Footer extends Component {
                         </Col>
                         <Col className={styles.center} sm={12} lg={6}>
                         <div >
-                        <div >
+                      {/*   <div >
                         <FaTwitter style={{ margin: '0 5px',opacity:'0.9' }}/> 
                         <FaFacebookSquare style={{ margin: '0 5px',opacity:'0.9' }}/>
                         <FaInstagram style={{ margin: '0 5px',opacity:'0.9' }}/>
                         <FaYoutube style={{ margin: '0 5px',opacity:'0.9' }}/>
-                        </div>
+                        </div> */}
                         </div>
                         </Col>
                     </Row>

@@ -39,18 +39,13 @@
   padding: 0.2em 3em;
   border: 1px solid black;
 }
-
-.button:hover {
-  background-color: white;
-  color: black;
-}
 .name{
   color:white;
   text-decoration: none;
 }
 .name:hover{
   text-decoration: none;
-  color:black;
+  color:white;
 }
 @media only screen and (max-width:500px) {
   .proposal {

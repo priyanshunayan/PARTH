@@ -18,7 +18,7 @@ export class Chat extends Component {
                                     <img src={images} className={styles.image} />
                                 </div>
                            <h4 className={styles.heading}>Be a part of our story</h4>
-                           <p className={styles.para}>We always look forward for great folks to join us on our mission, if you want to be part of our story we’d love to chat</p>
+                           <p className={styles.para}>We always look forward to great folks to join us on our mission, if you want to be part of our story we’d love to chat</p>
                            <div class="clearfix"></div>
                            <div class={styles.center}>
                            <button class={styles.button} ><a href="mailto:connect@parth.ind.in" className={styles.name}>Chat with us</a></button>
