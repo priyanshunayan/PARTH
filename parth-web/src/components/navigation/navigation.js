@@ -29,16 +29,15 @@
                      <AnchorLink href="#chat"className={style.listItem}>How to Connect</AnchorLink>
                  </ul> */}
                   <Navbar collapseOnSelect expand="lg" sticky="top" >
-                  <AnchorLink  className={style.listItem}><img src={image} width={20} height={20} className={style.image}></img></AnchorLink>
+                  <AnchorLink><img src={image} width={20} height={20} className={style.image1} ></img></AnchorLink>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className={styles.hamburger}/>
-                    
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mr-auto">
+                        <Nav>
+                    <AnchorLink  className={style.listItem}><img src={image} width={20} height={20} className={style.image2}></img></AnchorLink>
                      <AnchorLink href="#home" className={style.listItem}>Home</AnchorLink>
                      <AnchorLink href="#story"className={style.listItem}>Our Story</AnchorLink>
                      <AnchorLink href="#what"className={style.listItem}>What we do?</AnchorLink>
                      <AnchorLink href="#products"className={style.listItem}>Our Products</AnchorLink>
-                     <AnchorLink href="#team"className={style.listItem}>Team</AnchorLink>
                      <AnchorLink href="#chat"className={style.listItem}>How to Connect</AnchorLink>
     </Nav>
   </Navbar.Collapse>

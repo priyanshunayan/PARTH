@@ -25,5 +25,55 @@
 }
 
 .whatwedo {
+  margin-bottom: 2em;
   color: #505050;
+  margin-top: 6em;
+}
+
+.arrow {
+  display: none;
+  margin: auto;
+}
+
+.image {
+  text-align: center;
+  width: auto;
+  height: 70%;
+  margin-left: -10em;
+  margin-top: 3em;
+}
+
+.center {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageMob {
+  display: none;
+}
+
+@media only screen and (max-width:500px) {
+  .arrow {
+    height: 20px;
+    display: block;
+    margin: auto;
+    margin: 20px auto;
+  }
+
+  .marginTopLess {
+    margin-top: 0em;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .imageMob {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 1em;
+  }
 }

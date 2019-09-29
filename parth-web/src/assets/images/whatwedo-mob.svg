@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="177" height="482" viewBox="0 0 177 482">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#505050" font-family="AvenirNext-Regular, Avenir Next" font-size="14" transform="translate(12 -3)">
+            <tspan x="0" y="40">We see Gaps</tspan>
+        </text>
+        <text fill="#505050" font-family="AvenirNext-Regular, Avenir Next" font-size="14" transform="translate(12 -3)">
+            <tspan x="42" y="14">Opportunities </tspan> <tspan x="135.142" y="14" font-family="AppleColorEmoji, Apple Color Emoji">🤷</tspan>
+        </text>
+        <path stroke="#000" stroke-linecap="square" d="M63.027 33h40.44"/>
+        <text fill="#505050" font-family="AvenirNext-Regular, Avenir Next" font-size="14" transform="translate(0 -3)">
+            <tspan x="15" y="162">We ideate solutions </tspan> <tspan x="144.738" y="162" font-family="AppleColorEmoji, Apple Color Emoji">💭</tspan>
+        </text>
+        <text fill="#505050" font-family="AvenirNext-Regular, Avenir Next" font-size="14" transform="translate(0 -3)">
+            <tspan x="41" y="99">We analyse </tspan> <tspan x="117.286" y="99" font-family="AppleColorEmoji, Apple Color Emoji">🤔</tspan>
+        </text>
+        <text fill="#505050" font-family="AvenirNext-Regular, Avenir Next" font-size="14" transform="translate(0 -3)">
+            <tspan x="49" y="225">We build </tspan> <tspan x="110.614" y="225" font-family="AppleColorEmoji, Apple Color Emoji">💻</tspan>
+        </text>
+        <text fill="#505050" font-family="AvenirNext-Regular, Avenir Next" font-size="14" transform="translate(0 -3)">
+            <tspan x="41" y="288">We expand </tspan> <tspan x="117.818" y="288" font-family="AppleColorEmoji, Apple Color Emoji">📈</tspan>
+        </text>
+        <text fill="#505050" font-family="AvenirNext-Regular, Avenir Next" font-size="14" transform="translate(0 -3)">
+            <tspan x="0" y="351">We create opportunities </tspan> <tspan x="158.382" y="351" font-family="AppleColorEmoji, Apple Color Emoji">🚪</tspan>
+        </text>
+        <text fill="#505050" font-family="AvenirNext-Regular, Avenir Next" font-size="14" transform="translate(0 -3)">
+            <tspan x="14" y="414">We grow altogether </tspan> <tspan x="145.502" y="414" font-family="AppleColorEmoji, Apple Color Emoji">💯</tspan>
+        </text>
+        <text fill="#505050" font-family="AvenirNext-Regular, Avenir Next" font-size="14" transform="translate(0 -3)">
+            <tspan x="44" y="477">We repeat </tspan> <tspan x="114.476" y="477" font-family="AppleColorEmoji, Apple Color Emoji">🔂</tspan>
+        </text>
+        <path fill="#979797" fill-rule="nonzero" d="M89.953 69.557l3.581-6.896.888.461-4.871 9.379-5.486-9.033.855-.52 4.033 6.642-.47-14.073 1-.033.47 14.073zM89.953 321.557l3.581-6.896.888.461-4.871 9.379-5.486-9.033.855-.52 4.033 6.642-.47-14.073 1-.033.47 14.073zM89.953 132.557l3.581-6.896.888.461-4.871 9.379-5.486-9.033.855-.52 4.033 6.642-.47-14.073 1-.033.47 14.073zM89.953 384.557l3.581-6.896.888.461-4.871 9.379-5.486-9.033.855-.52 4.033 6.642-.47-14.073 1-.033.47 14.073zM89.953 193.557l3.581-6.896.888.461-4.871 9.379-5.486-9.033.855-.52 4.033 6.642-.47-14.073 1-.033.47 14.073zM89.953 445.557l3.581-6.896.888.461-4.871 9.379-5.486-9.033.855-.52 4.033 6.642-.47-14.073 1-.033.47 14.073zM89.953 258.557l3.581-6.896.888.461-4.871 9.379-5.486-9.033.855-.52 4.033 6.642-.47-14.073 1-.033.47 14.073z"/>
+    </g>
+</svg>

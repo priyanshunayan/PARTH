@@ -8,11 +8,14 @@ import image from '../../assets/images/image.svg'
 import celogo from '../../assets/images/ce-logo.png'
 import oclogo from '../../assets/images/logo-one-cricket-17.png'
 import aclogo from '../../assets/images/l-ace-app.png'
+import arrow from '../../assets/images/up.svg'
+
+
 const styling = {
     backgroundImage: `url(${Background})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    marginTop:'1em'
+    marginTop:'5em'
 }
 
 export class Products extends Component {
@@ -30,21 +33,21 @@ export class Products extends Component {
         this.setState({
             display:true,
             hover:true,
-            info: "Cricket Exchange is a the best site we have! You should try our products out."
+            info: "It provides you fast Live Cricket Score and everything that keep you in touch with cricket."
         })
     }
     showOC = () => {
         this.setState({
             display:true,
             hover:true,
-            info: "One Cricket is a the best site we have! You should try our products out."
+            info: "It, your one place stop for all you want to know about the cricketing world & pin background score"
         })
     }
     showAC = () => {
         this.setState({
             display:true,
             hover:true,
-            info: "Ace App is a the best site we have! You should try our products out."
+            info: "A social network platform dedicated to Asexual spectrum.We aim to connect the group together."
         })
     }
     hide = () => {
@@ -61,7 +64,9 @@ export class Products extends Component {
                     <Row>
                         <Col className={styles.productHeader}>
                             <h4> Our <br />Products </h4>
-                            <small className={styles.productHeaderSmall}>& all speeding up</small>
+                            <small className={styles.productHeaderSmall}>& all speeding up
+                            <img src={arrow} className={styles.arrow}/>
+                            </small>
                         </Col>
                     </Row>
                     <Row>
@@ -80,7 +85,7 @@ export class Products extends Component {
                                 <div className={styles.rotateBack}>
                                     <div>
                                         <img src={aclogo} className={styles.logoac}/>
-                                        <br /><span className={styles.textac}>Ace App</span>
+                                        <br /><span className={styles.textac}>ACEapp</span>
                                     </div>
                                 </div>
                             </div>

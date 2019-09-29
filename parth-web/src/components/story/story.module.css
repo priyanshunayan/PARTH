@@ -1,11 +1,12 @@
-.story {}
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 .leftColumn {
   background-color: black;
   display: flex;
   justify-content: flex-end;
-
-
+}
+.story {
+  font-family:'Montserrat', sans-serif;
 }
 
 .rightColumn {
@@ -29,7 +30,7 @@
 
 .description {
   text-align: justify;
-  font-size: 14px;
+  font-size: 13px;
   color: #646464;
   line-height: 1.6;
   padding: 0.5em;
@@ -60,7 +61,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-weight: bold;
+  font-weight:bold;
 }
 
 .blackBox2 {
@@ -73,7 +74,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-weight: bold;
+  font-weight:bold;
+
 }
 
 .blackBox3 {
@@ -86,14 +88,15 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-weight: bold;
   margin-top: -2em;
   margin-left: 2em;
+  font-weight: bold;
 }
 
 .blackBox4 {
   width: 140px;
   height: 140px;
+  padding:1em;
   transform: rotate(360deg);
   background-color: #f1f1f1;
   color: gray;
@@ -105,10 +108,18 @@
   margin-top: 2em;
   margin-left: 2em;
 }
+.milestone {
+  font-weight:normal;
+}
+.opacity {
+  font-size:1em;
+  opacity:0.77;
+  font-weight:normal;
+}
 
 
 .stat {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .empty {

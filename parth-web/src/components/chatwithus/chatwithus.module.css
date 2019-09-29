@@ -26,6 +26,11 @@
   clear: both;
 }
 
+.image {
+  float: right;
+  margin-top:2em;
+  width: 20%;
+}
 .button {
   margin-top: 1em;
   transition: background-color 0.5s ease;
@@ -39,7 +44,14 @@
   background-color: white;
   color: black;
 }
-
+.name{
+  color:white;
+  text-decoration: none;
+}
+.name:hover{
+  text-decoration: none;
+  color:black;
+}
 @media only screen and (max-width:500px) {
   .proposal {
     margin-top: 4em;
@@ -52,7 +64,16 @@
     margin: auto;
     width: 90%;
   }
-
+  .centerImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image {
+    margin-bottom:1em;
+    float: none;
+    text-align:center;
+  }
   .button {
     text-align: center;
     margin: 0 auto;

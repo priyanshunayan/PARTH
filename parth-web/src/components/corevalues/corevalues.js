@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import styles from './corevalues.module.css'
 import image from '../../assets/images/parth-logo-small.png'
+
 export class Corevalues extends Component {
     render(){
         return(
@@ -18,9 +19,7 @@ export class Corevalues extends Component {
                     <Row>
                         <Col className={styles.centerBox}>
                             <div className={styles.box}>
-                                <div>
-                                    <img src={image} className={styles.image}/>
-                                    <br />
+                                <div>   
                                     Commitment
                                     </div>
                                 </div>

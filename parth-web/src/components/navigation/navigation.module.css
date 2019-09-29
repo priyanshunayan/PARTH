@@ -1,7 +1,7 @@
 .listItem {
   color: hsl(0, 0%, 47%);
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
   padding-left: 2em;
 }
 
@@ -18,9 +18,8 @@
   top: 0;
   z-index: 909999;
   background: white;
+  font-size: 14px;
 }
-
-.image {}
 
 .hamburger {
   float: right;
@@ -28,8 +27,25 @@
   border-color: white;
 }
 
+.image1 {
+  display: none;
+}
+
+.listItem:nth-child(1) {
+  padding-left: 2em;
+}
+
 @media only screen and (max-width:500px) {
   .listItem {
     padding-bottom: 1em;
+  }
+
+  .image1 {
+    margin: 0.5em;
+    display: block;
+  }
+
+  .image2 {
+    display: none;
   }
 }

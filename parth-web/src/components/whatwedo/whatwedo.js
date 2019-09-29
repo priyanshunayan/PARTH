@@ -5,41 +5,19 @@ import Container from 'react-bootstrap/Container'
 import styles from './whatwedo.module.css'
 import Emoji from 'react-emoji-render';
 import { Twemoji } from 'react-emoji-render';
+import whatwedo from '../../assets/images/whatwedo.png'
+import whatwedoMob from '../../assets/images/group-11.png'
 export class Whatwedo extends Component {
     render(){
         return(
             <div id = "what" className={styles.whatwedo}>
                 <Container fluid={true} className={styles.centerBlock}>
-                    <Row>
-                        <Col className={styles.marginTop} >
-                        <h3 className={styles.center}>What we do?</h3>
-                        </Col>
-                    </Row>
-                    <Row className={styles.marginTopLess}>
-                        <Col className={styles.centerText} sm={12} lg={12}>
-                        <Twemoji text="We analyse 🤔" />
-                        </Col>
-                    </Row>
-                    <Row className={styles.marginTopLess}>
-                        <Col className={styles.centerText}sm={12} lg={6}>
-                        <Twemoji text="We ideate solutions 💭" />
-                        </Col>
-                        <Col className={styles.centerText} sm={12} lg={6}>
-                        <Twemoji text="We build 💻" />
-                        </Col>
-                    </Row>
-                    <Row className={styles.marginTopLess}>
-                        <Col className={styles.centerText} sm={12} lg={6}>
-                        <Twemoji text=" We see opportunities 🤷" />
-                        </Col>
-                        <Col className={styles.centerText} sm={12} lg={6}>
-                        <Twemoji text="We repeat 🔂" />
-                        </Col>
-                    </Row>
-                    <Row className={styles.marginTopLess}>
-                        <Col className={styles.centerText} sm={12} lg={12}>
-                        <Twemoji text="We create opportunities 🚪" />
-                        </Col>
+                    <Row class={styles.center}>
+                        <h4>What we Do?</h4>
+                        <div >
+                        <img src={whatwedo}  className={styles.image}/>
+                        <img src={whatwedoMob} className={styles.imageMob}/>
+                        </div>
                     </Row>
                 </Container>
             </div>

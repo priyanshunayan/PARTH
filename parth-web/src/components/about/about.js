@@ -27,9 +27,9 @@ export class About extends Component {
                     </Row>
                     </Container>
                     <div className={styles.achievements} >
-                    <div className={styles.rectangle}>
-                        <div className={styles.text}>Google Play 10 million club</div>
-                    </div>
+                        <div className={styles.rectangle}>
+                            <div className={styles.text}>Google Play 10 million club</div>
+                        </div>
                     <div className={styles.rectangle}>
                         <div className={styles.text}>Title Sponsor of NITP Fest</div>
                     </div>

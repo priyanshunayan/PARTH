@@ -4,6 +4,7 @@
 
 .proposalBlock {
   width: 70%;
+  margin:auto;
   display: flex;
   justify-content: center;
   text-align: right;
@@ -14,24 +15,35 @@
   width: 60%;
   color: #505050
 }
-
 .clearfix {
   clear: both;
 }
-
 .button {
   margin-top: 1em;
   transition: background-color 0.5s ease;
   background-color: white;
   padding: 0.2em 2em;
   border: 1px solid black;
+  color:black!important;
 }
-
+.link {
+  color:black;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: none;
+  color:white!important;
+}
 .button:hover {
   background-color: black;
-  color: white;
+  color: white!important;
 }
-
+.image{
+  float: left;
+  width:20%;
+  margin-left: 4em;
+  margin-top:1em;
+}
 @media only screen and (max-width:500px) {
   .proposal {
     text-align: center;
@@ -57,5 +69,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .image {
+    float:none;
   }
 }

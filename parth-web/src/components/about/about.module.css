@@ -28,7 +28,6 @@
   text-align: left;
   padding: 1em;
   margin-top: 2em;
-  padding-right: 1.5em;
 }
 
 .space {
@@ -37,15 +36,24 @@
 
 .join {
   background-color: black;
+  transition: background-color 0.350s ease;
   color: white;
-  padding: 0.2em 3em;
+  width: 80%;
+  padding: 0.2em 5em;
   border: none;
+
+}
+
+.join:hover {
+  background-color: white;
+  color: black;
 
 }
 
 .gray {
   color: #797979;
   padding-top: 2em;
+  text-align: left;
 }
 
 .row {
@@ -60,16 +68,23 @@
 }
 
 .text {
-  width: 70%;
+  width: 100%;
   padding: 1em;
+  
+}
+
+.boundary {
+  width: 180px;
 }
 
 .rectangle {
-  width: 150px;
+  width: 160px;
+  padding: 1em;
   background-color: white;
   color: black;
   background-image: url("../../assets/images/group-70-copy.svg");
-  background-size: contain;
+  background-size: 90%;
+  background-position: center;
   background-repeat: no-repeat;
   z-index: 20000;
   height: 150px;
@@ -92,20 +107,32 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .about {}
   .textContainer {
-    width: 90%;
+    width: 100%;
     text-align: left;
     padding: 1em;
     margin-top: 2em;
-    padding-right: 1.5em;
   }
-
+  .gray {
+    text-align:center;
+  }
   .imageMob {
     display: inline-block;
     width: 50%;
     text-align: right;
     height: auto;
     float: right;
+  }
+
+  .space {
+    width: 90%;
+    margin: auto;
+  }
+
+  .join {
+    width:100%;
+    padding: 0.2em 4em;
   }
 
   .image {
@@ -124,7 +151,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 0;
-    margin-bottom:2em;
+    margin-bottom: 2em;
   }
 
   .rectangle {

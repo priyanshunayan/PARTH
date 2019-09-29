@@ -39,6 +39,7 @@
 .productInfo {
   padding: 1em;
   width: 250px;
+  font-size: 14px;
   margin-left: calc(0%);
   animation: fadein 2s;
 }
@@ -65,16 +66,18 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  
 }
 
 .rotate {
   transform: rotate(45deg);
-  transition-duration: 1s;
+  transition-duration:0.350s;
+
 }
 
 .rotate:hover {
   transform: rotate(0deg);
-  transition-duration: 1s;
+  transition-duration:0.350s;
 }
 
 
@@ -131,6 +134,11 @@
   margin: -100px 0 -200px 0;
   width: 50%;
   height: auto;
+}
+.arrow{
+  margin: 0.5em;
+  width:10px;
+  height:10px;
 }
 
 @media only screen and (max-width:500px) {

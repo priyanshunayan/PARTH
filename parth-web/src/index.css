@@ -128,9 +128,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 button:focus {
   outline: 0;
 }
-
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav {
+  margin:auto;
+}
+}
 @media only screen and (max-width:500px) {
   html {
     overflow-x: hidden;
   }
+
 }

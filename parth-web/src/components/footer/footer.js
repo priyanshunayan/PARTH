@@ -14,19 +14,19 @@ export class Footer extends Component {
                             <div className={styles.flex}>
                             <div>
                                 <ul className={styles.noStyle}>
-                                    <li>PARTH | Jaipur Office </li>
-                                    <li>Gokulpura</li>
-                                    <li>Jaipur - 302012</li>
-                                    <li>Rajasthan, India</li>
+                                    <li style={{opacity:'0.9'}}>PARTH | Jaipur Office </li>
+                                    <li style={{opacity:'0.9'}}>Gokulpura</li>
+                                    <li style={{opacity:'0.9'}}>Jaipur - 302012</li>
+                                    <li style={{opacity:'0.9'}}>Rajasthan, India</li>
                                 </ul>
                             </div>
                             <div>
                                 <ul className={styles.noStyle}>
-                                    <li>PARTH | Gurugram Office, </li>
-                                    <li>3rd floor, Innov8, Orchid Tower</li>
-                                    <li>Golf Course Road, Sector-54</li>
-                                    <li>Gurgaaon - 122002</li>
-                                    <li>Haryana, India</li>
+                                    <li style={{opacity:'0.9'}}>PARTH | Gurugram Office, </li>
+                                    <li style={{opacity:'0.9'}}>3rd floor, Innov8, Orchid Tower</li>
+                                    <li style={{opacity:'0.9'}}>Golf Course Road, Sector-54</li>
+                                    <li style={{opacity:'0.9'}}>Gurgaaon - 122002</li>
+                                    <li style={{opacity:'0.9'}}>Haryana, India</li>
                                 </ul>
                             </div>
                             </div>
@@ -34,17 +34,17 @@ export class Footer extends Component {
                         <Col className={styles.center} sm={12} lg={6}>
                         <div >
                         <div >
-                        <FaTwitter style={{ margin: '0 5px' }}/> 
-                        <FaFacebookSquare style={{ margin: '0 5px' }}/>
-                        <FaInstagram style={{ margin: '0 5px' }}/>
-                        <FaYoutube style={{ margin: '0 5px' }}/>
+                        <FaTwitter style={{ margin: '0 5px',opacity:'0.9' }}/> 
+                        <FaFacebookSquare style={{ margin: '0 5px',opacity:'0.9' }}/>
+                        <FaInstagram style={{ margin: '0 5px',opacity:'0.9' }}/>
+                        <FaYoutube style={{ margin: '0 5px',opacity:'0.9' }}/>
                         </div>
                         </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                        <div style={{color:"#ffffff", marginLeft:'2em', marginTop:'1em', color:'#fff', fontSize:'14px'}}>
+                        <div style={{color:"#ffffff", textAlign:'center', marginBottom:'1em', color:'#fff', fontSize:'14px', opacity:'0.3'}}>
                         All right reserved & Copyright © Parth Universal Pvt. Ltd.
                         </div>
                         </Col>    
